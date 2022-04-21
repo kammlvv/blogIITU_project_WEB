@@ -1,0 +1,41 @@
+.nav{
+  width: 100%;
+  background-color: lightcyan;
+  grid-area: n;
+  }
+  .NAV{
+    margin: 10px 5px 0px 5px;
+    border-radius: 20px;
+    border: 2px solid;
+    display: block;
+    padding: 4%;
+    background-color: lightcyan;
+  
+  }
+  .NAV:hover{
+    padding: 5%;
+    background-color: #95a3b3;
+  }
+  .NAV a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  .NAV.profile{ 
+    
+  }
+  .NAV.tasks{
+    
+  }
+  .NAV.wallet{
+    
+  
+  }
+  .NAV.statistics{
+      
+  }
+  .NAV.aboutUs{
+    
+  }

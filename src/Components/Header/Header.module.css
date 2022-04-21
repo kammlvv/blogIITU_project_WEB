@@ -1,0 +1,53 @@
+.header{
+  margin: 0 ;
+  display: grid;
+  grid-template-areas: 
+  "logo tasks login";
+  grid-template-columns: 2fr 8fr 2fr;
+  position: relative;
+  background-color: #95a3b3;
+  grid-area: h;
+  grid-gap: 10px;
+
+
+
+}
+.logotype{
+  grid-area: logo;
+  padding: 10px 0px 0px 60px;
+
+}
+.logo{
+  width: 120px;
+  height: 40px;
+}
+
+.login{
+  white-space: nowrap;
+  text-align: center;
+  font-size: 16px;
+  grid-area: login;
+  padding: 15px 50px 15px 70px;
+}
+.headTask{
+
+  white-space: nowrap;
+  font-size: 16px;
+  grid-area: tasks;
+  display: grid;
+  grid-template-columns: repeat(2, 180px);
+}
+.hTasks{
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  
+}
+
+.hTasks:hover{
+  background-color: #fff
+}
+.hTasks.createTask{
+}
+
+.hTasks.findTask{
+}

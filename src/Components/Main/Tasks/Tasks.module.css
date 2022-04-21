@@ -1,0 +1,163 @@
+.makeTask{
+  width: 100%;
+  background-color: #222222;
+}
+
+.searchBox{
+
+  width: 400px;
+  grid-area: box;
+  display: grid;
+  grid-template-areas: 
+  "search search"
+  "select select" 
+  "text text"
+  "choose cost"
+  "time time"
+  "send send ";
+  grid-template-rows: 1fr ;
+  grid-area: c;
+  margin: 60px 0px 0px 60px;
+  
+}
+
+.nameOfTask{
+  grid-area: search;
+}
+.nameTask{
+  background-color: #f8f8f8;
+  white-space: nowrap;
+  border: 3px solid white;
+  border-radius: 9px;
+  width: 380px;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+.category{
+  grid-area: select;
+}
+
+.selectSubjects{
+  background-color: #f8f8f8;
+  white-space: nowrap;
+  border: 3px solid white;
+  border-radius: 9px;
+  width: 400px;
+  padding: 10px;
+  float: left;
+  cursor: inherit;
+  font-size: 16px;
+}
+.textArea{
+  grid-area: text;
+}
+.text{
+  background-color: #f8f8f8;
+  border: 3px solid white;
+  border-radius: 9px;
+  width: 400px;
+  height:200px;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  resize: none;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+.choose{
+  grid-area:choose;
+}
+.chooseFile{
+  background-color: #f8f8f8;
+  border: 3px solid white;
+  border-radius: 9px;
+  width: 280px;
+  padding: 10px;
+  float: left;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.cost{
+grid-area: cost;
+}
+.costTask{
+  background-color: #f8f8f8;
+  white-space: nowrap;
+  border: 3px solid white;
+  border-radius: 9px;
+  width: 90px;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+.timeDate{
+  grid-area: time;
+}
+.date{
+  background-color: #f8f8f8;
+  white-space: nowrap;
+  border: 3px solid white;
+  border-radius: 9px;
+  width: 150px;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+.time{
+  background-color: #f8f8f8;
+  white-space: nowrap;
+  border: 3px solid white;
+  border-radius: 9px;
+  width: 150px;
+  margin-left: 10px;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+.send{
+  grid-area: send;
+}
+.sendFile{
+  background-color: #f8f8f8;
+    white-space: nowrap;
+    border: 3px solid white;
+    width: 400px;
+    padding: 10px;
+    border-radius: 9px;
+      cursor: pointer;
+      color: #222222;
+      font-size: 16px;
+      margin-top: 25px;
+
+  }
+
+h3{
+  color: white;
+  margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+.nameTask:focus{
+  border: 3px solid #555;
+
+}
+
+.sendFile:hover{
+  background-color: #95a3b3;
+}
+
+a {
+  color: black; 
+  text-decoration: none;
+ }
+ a:hover {
+  color: green;
+}

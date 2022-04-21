@@ -1,0 +1,53 @@
+.wallet{
+  width: 100%;
+  background-color: #222222;
+}
+.balanceBox{
+
+  width: 400px;
+  grid-area: box;
+  display: grid;
+  grid-template-areas: 
+  "balance"
+  "topUp";
+  grid-template-rows: 1fr ;
+
+  margin: 60px 0px 0px 60px;
+  
+}
+.currentBalance{
+  grid-area: balance;
+  background-color: #f8f8f8;
+  white-space: nowrap;
+  border: 3px solid white;
+  border-radius: 9px;
+  width: 380px;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+.topUpAccount{
+  grid-area:topUp;
+  background-color: #f8f8f8;
+    white-space: nowrap;
+    border: 3px solid white;
+    width: 400px;
+    height:50px;
+    padding: 10px;
+    border-radius: 9px;
+      cursor: pointer;
+      color: #222222;
+      font-size: 16px;
+      margin-top: 25px;
+
+  }
+  .TopUpAccount:hover{
+    background-color: #95a3b3;
+  }
+a {
+  color: black; 
+  text-decoration: none;
+ }
+ a:hover {
+  color: green;
+}

@@ -1,0 +1,57 @@
+.footer{
+  margin: 0 ;
+  display: grid;
+  grid-template-areas: 
+  "support socialNetworks";
+  grid-template-columns: 2fr 2fr;
+  position: relative;
+  background-color: #95a3b3;
+  grid-area: f;
+  grid-gap: 10px;
+}
+.support{
+  white-space: nowrap;
+  grid-area: support;
+  display: grid;
+  font-size: 14px;
+  grid-template-areas: 
+  "copyrights rules";
+  padding: 0px 0px 0px 20px;
+  grid-template-columns: 340px 150px;
+}
+
+.socialNetworks{
+  grid-area: socialNetworks;
+  display: grid;
+  padding: 10px 0px 10px 0px;
+  padding-left: 400px;
+  grid-template-columns: repeat(4, 80px);
+}
+
+
+.copyRight{
+  grid-area: copyrights;
+}
+.rules{
+  grid-area: rules;
+}
+
+.logo{
+  width:30px;
+  
+}
+.logo.insta{
+  
+}
+
+.logo.facebook{
+
+}
+
+.logo.twitter{
+
+}
+
+.logo.vk{
+
+}

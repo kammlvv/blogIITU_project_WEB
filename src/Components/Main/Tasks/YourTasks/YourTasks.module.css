@@ -1,0 +1,31 @@
+.yourTask{
+  width: 100%;
+  background-color: #222222;
+
+}
+.yourTasksBox{
+  width: 800px;
+  display: grid;
+  grid-template-areas: 
+  "list box";
+  margin: 60px 0px 0px 60px;
+  grid-template-columns: 1fr 2fr;
+}
+.TaskList{
+  grid-area: list;
+  width: 400px;
+}
+.TaskBox{
+  width: 400px;
+  grid-area: box;
+}
+
+
+
+a {
+  color: black; 
+  text-decoration: none;
+ }
+ a:hover {
+  color: green;
+}
